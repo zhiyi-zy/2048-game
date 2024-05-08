@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 
 const size = 4;
+
 const getRandomInt = (max) => Math.floor(Math.random() * Math.ceil(max));
 
 const App = () => {
